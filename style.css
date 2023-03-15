@@ -1,0 +1,87 @@
+body {
+  background-image: url("images/anurag-saha-MyKvVfDrJ2c-unsplash.jpg");
+  background-size: cover;
+  font-family: 'Dancing Script', cursive;
+  height: 100vh;
+}
+
+.hero {
+  color: whitesmoke;
+  text-align: center;
+  margin: 0;
+  opacity: 0.7;
+}
+
+#hero-title {
+  display: inline-block;
+  text-shadow: 0 0 2px white;
+  margin-bottom: 11px;
+  color: #965C37;
+}
+
+#hero-description {
+  margin-top: 0;
+  text-shadow: 0 0 2px white;
+  color: #965C37;
+}
+
+.main{
+    background-color: whitesmoke;
+    text-align: center;
+    color: #33383b;
+}
+
+.main-title{
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.main-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.child-flex{
+    width: 25%;
+    margin: 55px 0 40px 0;
+}
+
+.child-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.parent-profile{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 50px 0;
+}
+
+.profile-container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+}
+
+.profile-image{
+    height: 250px;
+    width: 180px;
+    padding: 15px 8px;
+}
+
+.child-profile{
+    width: 200px;
+    padding: 25px 0 10px 35px; 
+}
+
+.child-img:hover{
+    width: 120px;
+    height: 120px;
+}
+
